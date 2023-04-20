@@ -1,0 +1,215 @@
+@import url("https://use.typekit.net/owc7ebv.css");
+* {
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --white: #FBF8F3;
+}
+body{
+    background-color: var(--white);
+}
+
+/* Nav Bar Section */
+
+.nav__bar{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    text-align: center;
+    margin: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.nav__bar li{
+    flex: 1;
+}
+
+.nav__bar--logo{
+    margin-top: 50px;
+}
+
+.nav__bar--logo > h1{
+   font-size: 4rem;
+   margin: 0;
+   font-weight:800;
+}
+
+.nav__bar--logo > h3{
+    margin: 0;
+    font-size: .8rem;
+}
+
+.nav__bar--logo > h4{
+    margin-top: .4rem;
+   font-size: .56rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+a:hover{
+    text-decoration: underline;
+    animation-delay: .5;
+}
+
+/* Intro Section */
+
+.intro{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.intro p{
+    font-family: "mrs-eaves", serif;
+    font-size: .90rem;
+    width: 30rem;
+    padding-bottom: 2rem;
+}
+
+.intro h3{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+}
+
+.intro > * {
+    height: 30rem;
+}
+
+.intro__img{
+    overflow:hidden;
+    object-position: bottom right;
+}
+
+.intro__text{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* cover */ 
+
+.cover{
+    align-items: center;
+    margin: 5rem;
+    padding: 5rem;
+}
+.cover img{
+    overflow: hidden;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 450px;
+}
+
+/* identity */
+
+.identity{
+    background-color: black;
+    height: 516px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.indentity__text{
+    color: var(--white);
+    z-index: 99999;
+    max-width: 30rem;
+}
+
+.indentity__text p{
+    font-family: "mrs-eaves", serif;
+    font-size: .95rem;
+    margin: 2rem;
+}
+
+.indentity__text a{
+    font-family: "mrs-eaves", serif;
+    color: var(--white);
+}
+
+.indentity__text h3{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: .7rem;
+    font-size: 1.3rem;
+}
+
+.indentity__text h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.7rem;
+}
+
+.identity img{
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.55;
+    position: absolute;
+}
+
+/* work preview */
+
+.work-preview{
+    background-color: black;
+    display: flex;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.work-preview img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* contact info */
+
+.contact-info{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-info > * {
+    flex: 1;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.contact-info__email h3{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+}
+
+.contact-info h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.contact-info__email p{
+    font-family: "mrs-eaves", serif;
+}
+
+
+/* footer */
+
+footer{
+    background-color: black;
+    height: 4rem;
+}
